@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class QueueStack {
-    public String checkPalindrome(){
+    public void checkPalindrome(){
         Queue<Character> q = new LinkedList<>();
         Stack<Character> stack = new Stack<>();
 
