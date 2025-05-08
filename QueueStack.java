@@ -19,7 +19,7 @@ public class QueueStack {
         for(int i=0 ; i<s.length() ; i++){
             if(stack.pop() != q.poll()){
                 System.out.print("The word, " + s + ", is not a palindrome.");
-                return;
+                return ;
             }
         }
 
